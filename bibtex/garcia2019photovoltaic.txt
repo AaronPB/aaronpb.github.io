@@ -1,0 +1,5 @@
+@article{garcia2019photovoltaic,
+  title={Photovoltaic Microgrid Emulator for Educational Purposes},
+  author={Garc{\'\i}a, Manuel P{\'e}rez and Moreno, Jose Luis Torres and Valenzulela, Seraf{\'\i}n Limonchi and Ra{\'u}l, Aar{\'o}n and Bakker, Poyatos and L{\'o}pez, Ismael S{\'a}nchez},
+  year={2019}
+}
