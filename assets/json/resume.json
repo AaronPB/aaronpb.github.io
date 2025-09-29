@@ -1,0 +1,312 @@
+{
+  "basics": {
+    "name": "Aarón Raúl Poyatos Bakker",
+    "label": "Industrial Engineer",
+    "image": "",
+    "email": "aaronpb@psa.es",
+    "url": "https://aaronpb.github.io/",
+    "summary": "Mechanical and Industrial Engineer with research experience in robotics, autonomous navigation, monitoring systems, and biomechanics. Completed a Master's in Industrial Engineering (2024) and currently pursuing a PhD entitled 'Control and optimisation techniques for efficient and sustainable integration of desalination technologies in CSP plants' at Plataforma Solar de Almería - CIEMAT.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Aarón Raúl Poyatos Bakker",
+        "url": "https://www.linkedin.com/in/aaron-raul-poyatos-bakker/"
+      },
+      {
+        "network": "Github",
+        "username": "AaronPB",
+        "url": "https://github.com/AaronPB"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Solar Energy Research Center (CIESOL)",
+      "position": "Mechanical Engineer - Intern",
+      "url": "https://ciesol.com/",
+      "startDate": "2019-02",
+      "endDate": "2019-04",
+      "summary": "Simulation and installation of a micro-grid with solar energy",
+      "highlights": [
+        "Design and material quotation of support platforms for solar panels, with SolidWorks.",
+        "Assembly and installation of a micro-grid with solar energy.",
+        "Data analysis using Matlab via modbus protocol, and configuration of the system in Energy Storage System (ESS) mode to store surplus electrical energy in batteries."
+      ]
+    },
+    {
+      "name": "Zred Comunicaciones y Automatización, S.L.",
+      "position": "Research Fellow",
+      "startDate": "2019-10",
+      "endDate": "2020-10",
+      "summary": "Drone indoor autonomous navigation in greenhouses",
+      "highlights": [
+        "Development of a ROS environment for indoor drone navigation.",
+        "Use of Ultra Wide Band (UWB) technology combined with particle filters and computer vision.",
+        "SLAM optimization (ORB-SLAM3) using factor graphs with the GTSAM library.",
+        "Development of the navigation control algorithm, including a route planning system using the MRPT library."
+      ]
+    },
+    {
+      "name": "Zred Comunicaciones y Automatización, S.L.",
+      "position": "Research Fellow",
+      "startDate": "2021-02",
+      "endDate": "2022-06",
+      "summary": "Analysis and efficient management of electrical energy using IoT sensors and distributed cloud computing",
+      "highlights": [
+        "Real-time integration of electrical consumption into machine learning systems using smart meters and high-precision power quality analyzers.",
+        "Development of a predictive model for electrical consumption disaggregation using particle filter algorithms."
+      ]
+    },
+    {
+      "name": "University of Almería",
+      "position": "Research Fellow",
+      "startDate": "2023-02",
+      "endDate": "2023-05",
+      "summary": "Design, Manufacturing, and EMG-Biomechanical Assessment of a Constant Force Mechanism",
+      "highlights": [
+        "Sensor reading software developed in Python with QT.",
+        "Programming in Matlab for processing the data recorded during measurements.",
+        "Development of multibody models for bench press and squat exercises."
+      ]
+    },
+    {
+      "name": "Plataforma Solar de Almería - CIEMAT",
+      "position": "PhD Student",
+      "startDate": "2025-03",
+      "endDate": "2029-03",
+      "summary": "Control and optimisation techniques for efficient and sustainable integration of desalination technologies in CSP plants"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "First Lego League SPAIN",
+      "location": "Almería, Spain",
+      "position": "Head Referee",
+      "url": "https://firstlegoleague.soy/",
+      "startDate": "2018",
+      "endDate": "Present",
+      "summary": "A provincial-level tournament where teams present innovative solutions to real-world challenges and build autonomous robots to complete a series of defined missions."
+    },
+    {
+      "organization": "European Researcher's Night",
+      "location": "Almería, Spain",
+      "position": "Participant Researcher",
+      "url": "https://lanochedelosinvestigadores.fundaciondescubre.es/",
+      "startDate": "2023",
+      "endDate": "Present",
+      "summary": "Each year, a series of activities is held simultaneously in nearly 400 European cities, with the mission of bringing science and research closer to the general audience."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Almería, Almería, Spain",
+      "location": "Almería, Spain",
+      "url": "https://www.ual.es/",
+      "area": "Industrial Engineering",
+      "studyType": "Bachelor's Degree in Mechanical Engineering",
+      "startDate": "2014-09",
+      "endDate": "2019-09",
+      "courses": ["Mathcad for Engineers and Scientists","3D Vision (Introduction of image processing)","Fundamentals of Deep Learning and its application to computer vision"]
+    },
+    {
+      "institution": "University of Almería, Almería, Spain",
+      "location": "Almería, Spain",
+      "url": "https://www.ual.es/",
+      "area": "Industrial Engineering",
+      "studyType": "Master's Degree in Industrial Engineering",
+      "startDate": "2021-09",
+      "endDate": "2024-06",
+      "courses": ["Geometric Algebra in Engineering","Model Predictive Control (MPC) of micro-grids","State estimation in robotics"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Master's Thesis Award",
+      "date": "2025-05-14",
+      "awarder": "Escuela Superior de Ingeniería, Universidad de Almería",
+      "url": "https://news.ual.es/formacion/la-tradicional-entrega-de-premios-pone-fin-a-las-celebraciones-de-la-esi-por-san-isidro/",
+      "summary": "Awarded annually during the Feast of Saint Isidore by the School of Engineering, University of Almería."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Mechanical Design Associate Level",
+      "date": "2018-02",
+      "issuer": "SolidWorks Certificate, Dassault Systèmes",
+      "url": "https://cv.virtualtester.com/qr/?b=SLDWRKS&i=C-ER64E83NR6",
+      "icon": "fa-solid fa-ruler-combined"
+    },
+    {
+      "name": "First Certificate in English",
+      "date": "2018-09",
+      "issuer": "Cambridge English",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-comment"
+    },
+    {
+      "name": "Deep Learning for Computer Vision",
+      "date": "2020-10",
+      "issuer": "NVIDIA Deep Learning Institute",
+      "url": "https://learn.nvidia.com/certificates?id=177c4ec7ed7945c3898c2427e133b843",
+      "icon": "fa-solid fa-eye-low-vision"
+    },
+    {
+      "name": "Licencia de vuelo UAS categoría abierta",
+      "date": "2022-09",
+      "issuer": "EASA - European Union Aviation Safety Agency",
+      "url": "https://www.easa.europa.eu/en",
+      "icon": "fa-solid fa-plane"
+    },
+    {
+      "name": "Utility model nº ES1312312",
+      "date": "2025-03",
+      "issuer": "OEPM ES",
+      "url": "https://consultas2.oepm.es/InvenesWeb/detalle?referencia=U202431233",
+      "icon": "fa-solid fa-id-card"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Photovoltaic Microgrid Emulator for Educational Purposes",
+      "publisher": "International Solar Energy Society",
+      "releaseDate": "2019",
+      "url": "https://proceedings.ises.org/conference/swc2019/papers/swc2019-0239-PerezGarcia.pdf"
+    },
+    {
+      "name": "Load Disaggregation Through Particle Filtering of Harmonic Features",
+      "publisher": "International Conference on Harmonics & Quality of Power",
+      "releaseDate": "2022-05-29",
+      "url": "https://ieeexplore.ieee.org/document/9808618"
+    },
+    {
+      "name": "SCADA basado en software abierto para planta demostrativa de desalación",
+      "publisher": "Comité Español de Automática",
+      "releaseDate": "2025-09-01",
+      "url": "https://doi.org/10.17979/ja-cea.2025.46.12195"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Office",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Microsoft Office",
+        "Adobe",
+        "LaTeX",
+        "Obsidian",
+        "Trello",
+        "Git"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "C/C++",
+        "Java",
+        "Python",
+        "HTML",
+        "CSS",
+        "Github",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Solidworks",
+        "Matlab",
+        "Octave",
+        "ROS",
+        "Mathcad"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Dutch",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Robotics",
+      "icon": "fa-solid fa-robot"
+    },
+    {
+      "name": "SLAM",
+      "icon": "fa-solid fa-route"
+    },
+    {
+      "name": "Autonomous Control",
+      "icon": "fa-solid fa-desktop"
+    },
+    {
+      "name": "Factor Graphs",
+      "icon": "fa-solid fa-bezier-curve"
+    },
+    {
+      "name": "Particle Filters",
+      "icon": "fa-solid fa-braille"
+    },
+    {
+      "name": "Computer Vision",
+      "icon": "fa-solid fa-eye"
+    },
+    {
+      "name": "NILM",
+      "icon": "fa-solid fa-bolt"
+    },
+    {
+      "name": "Smart Grids",
+      "icon": "fa-solid fa-solar-panel"
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor Jose Luis Blanco Claraco",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "University of Almería, Engineering Department"
+    },
+    {
+      "name": "Professor Jose Luis Torres Moreno",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "University of Almería, Engineering Department"
+    },
+    {
+      "name": "Professor Franciso Gil Montoya",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "University of Almería, Engineering Department. Zred Comunicaciones Founder."
+    },
+    {
+      "name": "Professor Javier López Martínez",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "University of Almería, Engineering Department"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Small Java Projects",
+      "summary": "Designed and developed several video game plugins in Java.",
+      "highlights": ["File management through FTP to a website.", "Custom user's GUI options, data storage systems and game control options.","Mini-games played by the community."],
+      "startDate": "2014",
+      "endDate": "Present",
+      "url": "https://minexilon.com/"
+    }
+  ]
+}
