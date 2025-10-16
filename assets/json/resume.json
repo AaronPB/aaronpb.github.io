@@ -106,7 +106,11 @@
       "studyType": "Bachelor's Degree in Mechanical Engineering",
       "startDate": "2014-09",
       "endDate": "2019-09",
-      "courses": ["Mathcad for Engineers and Scientists","3D Vision (Introduction of image processing)","Fundamentals of Deep Learning and its application to computer vision"]
+      "courses": [
+        "Mathcad for Engineers and Scientists",
+        "3D Vision (Introduction of image processing)",
+        "Fundamentals of Deep Learning and its application to computer vision"
+      ]
     },
     {
       "institution": "University of Almería, Almería, Spain",
@@ -116,7 +120,7 @@
       "studyType": "Master's Degree in Industrial Engineering",
       "startDate": "2021-09",
       "endDate": "2024-06",
-      "courses": ["Geometric Algebra in Engineering","Model Predictive Control (MPC) of micro-grids","State estimation in robotics"]
+      "courses": ["Geometric Algebra in Engineering", "Model Predictive Control (MPC) of micro-grids", "State estimation in robotics"]
     }
   ],
   "awards": [
@@ -190,40 +194,19 @@
       "name": "Office",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Microsoft Office",
-        "Adobe",
-        "LaTeX",
-        "Obsidian",
-        "Trello",
-        "Git"
-      ]
+      "keywords": ["Microsoft Office", "Adobe", "LaTeX", "Obsidian", "Trello", "Git"]
     },
     {
       "name": "Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "C/C++",
-        "Java",
-        "Python",
-        "HTML",
-        "CSS",
-        "Github",
-        "Docker"
-      ]
+      "keywords": ["C/C++", "Java", "Python", "HTML", "CSS", "Github", "Docker"]
     },
     {
       "name": "Software",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Solidworks",
-        "Matlab",
-        "Octave",
-        "ROS",
-        "Mathcad"
-      ]
+      "keywords": ["Solidworks", "Matlab", "Octave", "ROS", "Mathcad"]
     }
   ],
   "languages": [
@@ -303,7 +286,11 @@
     {
       "name": "Small Java Projects",
       "summary": "Designed and developed several video game plugins in Java.",
-      "highlights": ["File management through FTP to a website.", "Custom user's GUI options, data storage systems and game control options.","Mini-games played by the community."],
+      "highlights": [
+        "File management through FTP to a website.",
+        "Custom user's GUI options, data storage systems and game control options.",
+        "Mini-games played by the community."
+      ],
       "startDate": "2014",
       "endDate": "Present",
       "url": "https://minexilon.com/"
