@@ -1,0 +1,44 @@
+{{ define "main" }}
+<section class="max-w-5xl mx-auto px-6 py-12">
+  <h1 class="text-4xl font-bold mb-10 text-center">Publications</h1>
+
+  {{ $pubs := site.Data.publications }}
+  {{ if $pubs }}
+    {{ range $pubs }}
+      <article class="mb-8 p-6 bg-neutral-100 dark:bg-neutral-800 rounded-2xl shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">{{ .title }}</h2>
+
+        {{ with .author }}
+          <p class="text-sm italic mb-2">
+            {{ range $i, $a := . }}
+              {{ if $i }}, {{ end }}{{ $a.given }} {{ $a.family }}
+            {{ end }}
+          </p>
+        {{ end }}
+
+        {{ with (index . "container-title") }}
+          <p class="text-sm text-gray-700 dark:text-gray-300 mb-1">
+            <strong>In:</strong> {{ . }}
+          </p>
+        {{ end }}
+
+        {{ with (index . "issued") }}
+          <p class="text-sm text-gray-500 mb-1">
+            Year: {{ index (index . "date-parts") 0 0 }}
+          </p>
+        {{ end }}
+
+        {{ with .DOI }}
+          <p class="text-sm">
+            <a href="https://doi.org/{{ . }}" target="_blank" class="text-blue-600 underline">
+              DOI: {{ . }}
+            </a>
+          </p>
+        {{ end }}
+      </article>
+    {{ end }}
+  {{ else }}
+    <p class="text-red-600 font-semibold">❌ Could not load data/publications.json</p>
+  {{ end }}
+</section>
+{{ end }}

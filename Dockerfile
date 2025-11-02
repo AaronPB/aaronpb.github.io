@@ -1,7 +1,7 @@
 FROM ghcr.io/gohugoio/hugo:v0.152.2 AS dev
 
 LABEL maintainer="AaronPB <aaron.pb@psa.es>"
-LABEL description="SOLDESALBIO development space"
+LABEL description="Personal website development space"
 
 WORKDIR /app
 

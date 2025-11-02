@@ -1,0 +1,247 @@
+[
+  {
+    "author": [
+      {
+        "family": "Ruiz-González",
+        "given": "Carlos-Manuel"
+      },
+      {
+        "family": "Soriano",
+        "given": "Álvaro"
+      },
+      {
+        "family": "Pinedo",
+        "given": "Javier"
+      },
+      {
+        "family": "Alarcón-Padilla",
+        "given": "Diego-César"
+      },
+      {
+        "family": "García-Rodríguez",
+        "given": "Lourdes"
+      },
+      {
+        "family": "Ortega-Delgado",
+        "given": "Bartolomé"
+      },
+      {
+        "family": "Poyatos-Bakker",
+        "given": "Aarón-Raúl"
+      },
+      {
+        "family": "Ardila",
+        "given": "Patricia"
+      }
+    ],
+    "container-title": "Proceedings of SolarPACES 2025: Concentrating solar power, thermal and chemical energy systems",
+    "id": "ruiz2025rocsp",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "title": "Evaluation of a hybrid CAES-reverse osmosis plant driven by concentrated solar power",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.17979/ja-cea.2025.46.12195",
+    "author": [
+      {
+        "family": "Poyatos-Bakker",
+        "given": "Aarón-Raúl"
+      },
+      {
+        "family": "Roa",
+        "given": "Antonio"
+      },
+      {
+        "family": "Roca",
+        "given": "Lidia"
+      },
+      {
+        "family": "Ardila",
+        "given": "Patricia"
+      },
+      {
+        "family": "Gil",
+        "given": "Juan D."
+      }
+    ],
+    "container-title": "Jornadas de Automática",
+    "id": "poyatos2025mdscada",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "title": "SCADA basado en software abierto para planta demostrativa de desalación",
+    "type": "article-journal"
+  },
+  {
+    "author": [
+      {
+        "family": "Poyatos-Bakker",
+        "given": "Aarón-Raúl"
+      },
+      {
+        "family": "Roca",
+        "given": "Lidia"
+      },
+      {
+        "family": "Ardila",
+        "given": "Patricia"
+      },
+      {
+        "family": "Gil",
+        "given": "Juan D."
+      }
+    ],
+    "container-title": "EU-solaris 2nd doctoral colloquium 2025",
+    "id": "poyatos2025desalinationcsp",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "26-27",
+    "title": "Control and optimisation techniques for efficient and sustainable integration of desalination technologies in CSP plants",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "http://dx.doi.org/10.2139/ssrn.5226079",
+    "author": [
+      {
+        "family": "Poyatos-Bakker",
+        "given": "Aarón-Raúl"
+      },
+      {
+        "family": "LÓPEZ-MARTÍNEZ",
+        "given": "JAVIER"
+      },
+      {
+        "family": "GARCIA-VALLEJO",
+        "given": "DANIEL"
+      },
+      {
+        "family": "Muyor Rodrı́guez",
+        "given": "José M"
+      },
+      {
+        "family": "Blanco-Claraco",
+        "given": "Jose Luis"
+      }
+    ],
+    "container-title": "Available at SSRN 5226079",
+    "id": "poyatos2025calibration",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "title": "A new 3d force platform and calibration method",
+    "type": "article-journal"
+  },
+  {
+    "DOI": "10.1109/ICHQP53011.2022.9808618",
+    "author": [
+      {
+        "family": "Poyatos-Bakker",
+        "given": "Aarón R"
+      },
+      {
+        "family": "Isanbaev-Sobolyev",
+        "given": "Viktor"
+      },
+      {
+        "family": "Blanco-Claraco",
+        "given": "José-Luis"
+      },
+      {
+        "family": "Viciana",
+        "given": "Eduardo"
+      },
+      {
+        "family": "Ventura",
+        "given": "Jorge"
+      },
+      {
+        "family": "Arrabal-Campos",
+        "given": "Francisco M"
+      },
+      {
+        "family": "Baños",
+        "given": "Raúl"
+      },
+      {
+        "family": "Alcayde",
+        "given": "Alfredo"
+      },
+      {
+        "family": "Montoya",
+        "given": "Francisco G"
+      }
+    ],
+    "container-title": "2022 20th international conference on harmonics & quality of power (ICHQP)",
+    "id": "poyatos2022load",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "keyword": "Renewable energy sources;Power filters;Load monitoring;Power measurement;Harmonic analysis;Particle measurements;Particle filters;particle filter;NILM;predictive algorithms;energy disaggregation",
+    "page": "1-6",
+    "publisher": "IEEE",
+    "title": "Load disaggregation through particle filtering of harmonic features",
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Garcı́a",
+        "given": "Manuel Pérez"
+      },
+      {
+        "family": "Moreno",
+        "given": "Jose Luis Torres"
+      },
+      {
+        "family": "Valenzulela",
+        "given": "Serafı́n Limonchi"
+      },
+      {
+        "family": "Raúl",
+        "given": "Aarón"
+      },
+      {
+        "family": "Bakker",
+        "given": "Poyatos"
+      },
+      {
+        "family": "López",
+        "given": "Ismael Sánchez"
+      }
+    ],
+    "id": "garcia2019photovoltaic",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "Photovoltaic microgrid emulator for educational purposes",
+    "type": "article-journal"
+  }
+]
