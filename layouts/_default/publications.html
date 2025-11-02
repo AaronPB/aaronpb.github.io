@@ -5,7 +5,6 @@
   {{ $pubs := site.Data.publications }}
   {{ if $pubs }}
 
-    {{/* Primero agregamos el año a cada publicación para poder ordenar */}}
     {{ $pubsWithYear := slice }}
     {{ range $pubs }}
       {{ $issued := index . "issued" }}
@@ -14,10 +13,8 @@
       {{ $pubsWithYear = $pubsWithYear | append (dict "year" $year "data" .) }}
     {{ end }}
 
-    {{/* Ordenamos por año descendente */}}
     {{ $sorted := sort $pubsWithYear "year" "desc" }}
 
-    {{/* Variable para detectar cambios de año */}}
     {{ $currentYear := 0 }}
 
     {{ range $sorted }}
@@ -63,7 +60,7 @@
     {{ end }}
 
   {{ else }}
-    <p class="text-red-600 font-semibold">❌ Could not load data/publications.json</p>
+    <p class="text-red-600 font-semibold">Could not load data/publications.json</p>
   {{ end }}
 </section>
 {{ end }}

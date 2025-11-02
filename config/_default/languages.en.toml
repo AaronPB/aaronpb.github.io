@@ -37,7 +37,7 @@ title = "AaronPB"
 #     { foursquare = "https://foursquare.com/username" },
     { github = "https://github.com/AaronPB" },
 #     { gitlab = "https://gitlab.com/username" },
-#     { google = "https://www.google.com/" },
+    { google-scholar = "https://scholar.google.com/citations?user=Hwvn4-kAAAAJ" },
 #     { hashnode = "https://username.hashnode.dev" },
 #     { instagram = "https://instagram.com/username" },
 #     { itch-io = "https://username.itch.io" },
