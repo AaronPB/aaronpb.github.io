@@ -4,11 +4,38 @@
 
   {{ $pubs := site.Data.publications }}
   {{ if $pubs }}
-    {{ range $pubs }}
-      <article class="mb-8 p-6 bg-neutral-100 dark:bg-neutral-800 rounded-2xl shadow-sm">
-        <h2 class="text-xl font-semibold mb-2">{{ .title }}</h2>
 
-        {{ with .author }}
+    {{/* Primero agregamos el año a cada publicación para poder ordenar */}}
+    {{ $pubsWithYear := slice }}
+    {{ range $pubs }}
+      {{ $issued := index . "issued" }}
+      {{ $dateParts := index $issued "date-parts" }}
+      {{ $year := index (index $dateParts 0) 0 }}
+      {{ $pubsWithYear = $pubsWithYear | append (dict "year" $year "data" .) }}
+    {{ end }}
+
+    {{/* Ordenamos por año descendente */}}
+    {{ $sorted := sort $pubsWithYear "year" "desc" }}
+
+    {{/* Variable para detectar cambios de año */}}
+    {{ $currentYear := 0 }}
+
+    {{ range $sorted }}
+      {{ $year := .year }}
+      {{ $pub := .data }}
+
+      {{ if ne $year $currentYear }}
+        {{ if ne $currentYear 0 }}
+          <hr class="my-12 border-neutral-300 dark:border-neutral-700">
+        {{ end }}
+        <h2 class="text-3xl font-bold mb-6 text-right text-neutral-700 dark:text-neutral-300">{{ $year }}</h2>
+        {{ $currentYear = $year }}
+      {{ end }}
+
+      <article class="mb-6 p-6 bg-neutral-100 dark:bg-neutral-800 rounded-2xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-2">{{ $pub.title }}</h3>
+
+        {{ with (index $pub "author") }}
           <p class="text-sm italic mb-2">
             {{ range $i, $a := . }}
               {{ if $i }}, {{ end }}{{ $a.given }} {{ $a.family }}
@@ -16,19 +43,15 @@
           </p>
         {{ end }}
 
-        {{ with (index . "container-title") }}
+        {{ with (index $pub "container-title") }}
           <p class="text-sm text-gray-700 dark:text-gray-300 mb-1">
             <strong>In:</strong> {{ . }}
           </p>
         {{ end }}
 
-        {{ with (index . "issued") }}
-          <p class="text-sm text-gray-500 mb-1">
-            Year: {{ index (index . "date-parts") 0 0 }}
-          </p>
-        {{ end }}
+        <p class="text-sm text-gray-500 mb-1">Year: {{ $year }}</p>
 
-        {{ with .DOI }}
+        {{ with (index $pub "DOI") }}
           <p class="text-sm">
             <a href="https://doi.org/{{ . }}" target="_blank" class="text-blue-600 underline">
               DOI: {{ . }}
@@ -36,7 +59,9 @@
           </p>
         {{ end }}
       </article>
+
     {{ end }}
+
   {{ else }}
     <p class="text-red-600 font-semibold">❌ Could not load data/publications.json</p>
   {{ end }}
